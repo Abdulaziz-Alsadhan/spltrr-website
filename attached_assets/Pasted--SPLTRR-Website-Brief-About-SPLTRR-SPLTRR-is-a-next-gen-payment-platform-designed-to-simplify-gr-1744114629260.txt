@@ -1,0 +1,156 @@
+🌐 SPLTRR Website Brief
+✅ About SPLTRR
+SPLTRR is a next-gen payment platform designed to simplify group payments. Whether it’s friends splitting a dinner bill, roommates sharing utilities, or teams co-buying gifts, SPLTRR ensures everyone pays their fair share—effortlessly, fairly, and transparently.
+
+We are entering the e-commerce space as a payment solution, enabling online merchants to offer “split payment” at checkout. Think Klarna or PayPal, but for groups.
+
+🎯 Website Goals
+Communicate SPLTRR's value proposition clearly and quickly.
+
+Build trust and excitement with clean, modern visuals.
+
+Encourage sign-ups (waitlist or beta access).
+
+Educate both individual users and e-commerce merchants.
+
+Provide a smooth UX with responsive design (mobile-first).
+
+🏠 Homepage Structure
+1. Hero Section
+Headline:
+“Split Payments. Simplified.”
+
+Subheadline:
+“SPLTRR makes group expenses fair, fast, and hassle-free.”
+
+CTA Buttons:
+
+"Join the Waitlist"
+
+"Watch How It Works"
+
+Visual:
+Render or animation showing a simple group payment flow (e.g., 4 friends splitting a dinner).
+
+2. How It Works (3 Steps)
+Break it down visually:
+
+Create a Split
+Start a payment request from the SPLTRR app or website.
+
+Invite Your Group
+Add friends via phone number or link.
+
+Pay Together
+Everyone pays their share. Done!
+
+3. Use Cases
+Highlight real-life examples with icons/illustrations:
+
+Dinner with friends
+
+Shared vacation
+
+Housemates
+
+Group gifts
+
+Event tickets
+
+4. Why SPLTRR
+Fair & Transparent
+
+No Awkward Follow-ups
+
+Works with Any Card
+
+Trusted & Secure
+
+Plug & Play for Merchants
+
+5. For Merchants
+Brief section for B2B:
+
+Integrate SPLTRR to let customers split at checkout.
+
+Reduce abandoned carts.
+
+Grow conversion rates.
+
+CTA: “Partner With Us”
+
+6. Testimonials / Social Proof
+(Placeholders for now; space to add quotes or case studies later.)
+
+7. CTA Section
+“Group expenses don’t have to be painful.”
+
+Big button: “Join the Waitlist” or “Get Early Access”
+
+8. Footer
+About
+
+Contact
+
+FAQs
+
+Terms & Privacy
+
+Social icons
+
+💻 Landing Page (For Ads / Promotions)
+Focus: Conversion-optimized page for a specific campaign (e.g., "Split with Friends in Seconds")
+
+Sections:
+Hero + CTA
+
+3 Quick Benefits
+
+Visual/Video demo
+
+Testimonials
+
+FAQ
+
+Email capture form (Name + Email)
+
+🎨 Design Guidelines
+Logo & Branding
+
+Use the official logo (see attached)
+
+Font: Bold, modern, sans-serif (match logo style)
+
+Primary Colors:
+
+Black: #000000
+
+Green: #7AC943
+
+Blue: #3FA9F5
+
+Gradient: Green → Blue
+
+Visual Style
+
+Clean, minimal layout
+
+Rounded buttons
+
+Soft shadows
+
+Microinteractions on hover/tap
+
+Animations preferred over static visuals where appropriate
+
+📱 Features to Include (Roadmap Friendly)
+Waitlist form (Name, Email)
+
+Mobile app preview mockup
+
+Integrations placeholder (Shopify, WooCommerce, etc.)
+
+Live demo (if feasible later)
+
+Analytics-ready (Google Analytics, Hotjar, etc.)
+

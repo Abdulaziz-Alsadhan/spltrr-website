@@ -1,0 +1,117 @@
+SPLTRR Website Design Brief
+
+Project Name: SPLTRR Website
+Pages Needed: Homepage (brand-focused, storytelling style), Landing Page (for product or promo, scroll-based layout)
+
+Brand Summary: SPLTRR is a content-forward, creator-first platform built for viral moments. We're building a space for the funniest, most entertaining, short-form content on the internet — empowering both creators and viewers to split attention, blow up fast, and own their voice. Think: Entertainment meets tech, Community meets chaos, Simplicity with an edge.
+
+Target Users:
+
+Age: 16–35
+
+Demographic: Creators, meme-lovers, Gen Z & Millennials
+
+Platforms: TikTok, Instagram, YouTube Shorts users
+
+Culture: Fast, funny, trend-savvy, design-literate
+
+Visual Inspiration:
+Sites we love (style references):
+
+https://www.qubit.sa/ → smooth scroll, bold simplicity, tech vibe
+
+https://units.sa/ → modular layout, storytelling + product focus, clean design
+
+https://www.apple.com/macbook-air-m3/ → scroll-based narrative, clean CTA usage
+
+Aesthetic direction: bold sans-serif fonts, clean grid, dark/light mode contrast, subtle animations
+
+Homepage Structure:
+
+Hero Section
+
+Fullscreen intro (animated headline)
+
+“Split the Internet” tagline
+
+Primary CTA: “Join the Drop” or “Explore SPLTRR”
+
+About SPLTRR
+
+1–2 sentences + visual (animated, or split screen layout)
+
+Explain the why behind SPLTRR in simple terms
+
+How It Works
+
+Three steps: Create → Share → Go Viral
+
+Use vertical scroll or horizontal slider
+
+For Creators / For Viewers
+
+Two-column layout: one side for creators, one for viewers
+
+Icons or minimal illustrations
+
+Trending / Showcase
+
+Carousel of top posts or creators (can be faked for now if MVP)
+
+Call to Action
+
+Final section with a punch: “Get Early Access”, email input, or social links
+
+Footer
+
+Minimal: logo, nav links, privacy, terms, socials
+
+Landing Page Use-Case (for Campaigns):
+Ideal for:
+
+A creator signup campaign
+
+A special drop
+
+A viral product/tool launch
+
+Structure:
+
+Bold hero with campaign tagline
+
+Scroll animation or visual preview
+
+Value props (3-4 max)
+
+Email capture or waitlist
+
+Micro-FAQ
+
+Final CTA
+
+Tech & Stack Preferences:
+
+Suggested: Next.js or Webflow
+
+Responsive across all devices
+
+Fast load, optimized assets
+
+Smooth scroll & animation libraries
+
+CMS for content (if needed)
+
+SEO basics + Google Analytics
+
+Optional: Dark mode toggle
+
+What We’ll Provide (or need help with):
+
+Logo (available or WIP)
+
+Brand colors (can explore with designer)
+
+Visual references
+
+Copywriting support needed: Yes
+

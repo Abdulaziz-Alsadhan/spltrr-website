@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Based on the official Saudi Riyal Symbol -->
+  <g transform="translate(1, 1) scale(0.92)">
+    <!-- Two vertical lines -->
+    <path d="M8 2V14" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+    <path d="M14 2V14" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+    
+    <!-- Main horizontal line -->
+    <path d="M2 15H22" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+    
+    <!-- Bottom diagonal lines -->
+    <path d="M2 15L6 22" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+    <path d="M12 15L16 22" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+    
+    <!-- Middle horizontal line -->
+    <path d="M18 19H22" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+  </g>
+</svg>

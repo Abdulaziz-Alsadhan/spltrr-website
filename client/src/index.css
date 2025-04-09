@@ -1,0 +1,214 @@
+/* Import Almarai Font - Normal and ExtraBold */
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* RTL Support */
+html.rtl {
+  direction: rtl;
+  text-align: right;
+  font-family: 'Almarai', sans-serif;
+}
+
+/* Arabic font styles - matching qubit.sa */
+html.rtl h1, 
+html.rtl h2, 
+html.rtl h3, 
+html.rtl h4, 
+html.rtl h5, 
+html.rtl h6,
+html.rtl .font-bold,
+html.rtl button,
+html.rtl .btn,
+html.rtl a {
+  font-family: 'Almarai', sans-serif;
+  font-weight: 800 !important; /* ExtraBold for all headings and bold text */
+}
+
+/* Specific treatment for Arabic paragraphs */
+html.rtl p {
+  font-family: 'Almarai', sans-serif;
+  font-weight: 400; /* Regular for body text */
+  line-height: 1.8;
+}
+
+/* Qubit-style emphasis for Arabic */
+html.rtl .font-extrabold,
+html.rtl .text-3xl,
+html.rtl .text-4xl,
+html.rtl .text-5xl,
+html.rtl .text-6xl {
+  letter-spacing: -0.02em;
+}
+
+html.rtl .ml-auto {
+  margin-left: unset;
+  margin-right: auto;
+}
+
+html.rtl .mr-auto {
+  margin-right: unset;
+  margin-left: auto;
+}
+
+html.rtl .ml-1, html.rtl .ml-2, html.rtl .ml-3, html.rtl .ml-4 {
+  margin-left: unset;
+  margin-right: 0.25rem;
+}
+
+html.rtl .mr-1, html.rtl .mr-2, html.rtl .mr-3, html.rtl .mr-4 {
+  margin-right: unset;
+  margin-left: 0.25rem;
+}
+
+@layer base {
+  :root {
+    /* Light mode colors (default) */
+    --background: 0 0% 100%; /* white */
+    --foreground: 240 10% 3.9%; /* dark text */
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 142 56% 52%; /* #7AC943 */
+    --primary-foreground: 355.7 100% 97.3%;
+    --secondary: 201 88% 60%; /* #3FA9F5 */
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 142 56% 52%;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    /* Qubit.sa inspired dark mode colors */
+    --background: 222 47% 11%; /* #0c1829 - deep blue-black like Qubit */
+    --foreground: 210 40% 98%; /* very light gray-blue text */
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 142 56% 52%; /* #7AC943 */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 201 88% 60%; /* #3FA9F5 */
+    --secondary-foreground: 0 0% 100%;
+    --muted: 217 33% 17%; /* slightly lighter than background */
+    --muted-foreground: 215 20% 65%; /* subtle text */
+    --accent: 217 33% 17%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --ring: 142 56% 52%;
+  }
+  
+  /* Dark mode specific styling */
+  .dark {
+    color-scheme: dark;
+  }
+  
+  .dark body {
+    background-color: hsl(222 47% 11%); /* #0c1829 - Qubit-like dark blue */
+    color: hsl(210 40% 98%);
+  }
+  
+  /* Dark cards and sections */
+  .dark .card,
+  .dark .mission-card,
+  .dark .vision-card,
+  .dark .benefits-card {
+    background-color: hsl(217 33% 17%);
+    border-color: hsl(217 33% 22%);
+  }
+  
+  /* Light header for dark mode - using !important to override any other styles */
+  .dark header:not(.bg-transparent) {
+    background-color: white !important;
+    color: #333 !important;
+    border-bottom: 1px solid #e5e7eb !important;
+  }
+  
+  /* For home page scrolled state */
+  .dark header.bg-background\/90,
+  .dark header[style*="background"],
+  .dark header[class*="backdrop-blur"] {
+    background-color: white !important;
+    color: #333 !important;
+  }
+  
+  /* Force the header to white in dark mode when scrolled */
+  @media (prefers-color-scheme: dark) {
+    header.fixed.top-0:not(.bg-transparent) {
+      background-color: white !important;
+    }
+  }
+  
+  /* Specific class for dark mode header */
+  .dark-header {
+    background-color: white !important;
+    color: #333 !important;
+  }
+  
+  /* Fix colors in dark mode header */
+  .dark header .text-gray-800 {
+    color: #333 !important;
+  }
+  
+  .dark header button {
+    color: inherit !important;
+  }
+  
+  /* Ensure text is visible in dark mode header */
+  .dark header a, 
+  .dark header span {
+    color: #333 !important;
+  }
+  
+  /* Only exception is for home page transparent header */
+  .dark header.bg-transparent a,
+  .dark header.bg-transparent span,
+  .dark header.bg-transparent button {
+    color: white !important;
+  }
+
+  /* Basic styles */
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground transition-colors duration-300;
+  }
+  
+  /* Custom gradient text */
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+  }
+  
+  /* Custom gradient button */
+  .gradient-button {
+    @apply relative overflow-hidden text-white font-medium;
+  }
+  
+  .gradient-button::before {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-r from-primary to-secondary transition-opacity duration-300;
+  }
+  
+  .gradient-button:hover::before {
+    @apply opacity-80;
+  }
+  
+  .gradient-button span {
+    @apply relative z-10;
+  }
+}

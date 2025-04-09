@@ -1,0 +1,118 @@
+/* Additional dark mode styles for specific components */
+
+/* About page */
+.dark .mission-card,
+.dark .vision-card,
+.dark .benefits-card {
+  background-color: hsl(217 33% 17%);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2),
+              0 2px 4px -2px rgba(0, 0, 0, 0.2);
+  border: 1px solid hsl(217 33% 22%);
+}
+
+.dark .mission-card:hover,
+.dark .vision-card:hover,
+.dark .benefits-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3),
+              0 4px 6px -4px rgba(0, 0, 0, 0.2);
+}
+
+/* Partner page */
+.dark .partner-form-container {
+  background-color: hsl(217 33% 17%);
+  border: 1px solid hsl(217 33% 22%);
+}
+
+.dark input,
+.dark textarea,
+.dark select {
+  background-color: hsl(222 47% 11%);
+  border-color: hsl(217 33% 22%);
+  color: hsl(210 40% 98%);
+}
+
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: hsl(215 20% 65%);
+}
+
+.dark input:focus,
+.dark textarea:focus,
+.dark select:focus {
+  border-color: hsl(201 88% 60%);
+  outline: none;
+  box-shadow: 0 0 0 1px hsla(201, 88%, 60%, 0.5);
+}
+
+/* Home page */
+.dark .hero-section {
+  background-color: hsl(222 47% 11%);
+}
+
+.dark section {
+  background-color: hsl(222 47% 11%) !important;
+  color: hsl(210 40% 98%);
+}
+
+.dark section.bg-white,
+.dark section.bg-gray-50,
+.dark section.py-24.bg-white {
+  background-color: hsl(222 47% 11%) !important;
+}
+
+.dark section p.text-gray-600,
+.dark section p.text-xl.text-gray-600 {
+  color: hsl(214 32% 91%);
+}
+
+.dark .features-section {
+  background-color: hsl(217 33% 15%);
+}
+
+.dark .feature-card {
+  background-color: hsl(217 33% 17%);
+  border: 1px solid hsl(217 33% 22%);
+}
+
+.dark .testimonial-card {
+  background-color: hsl(217 33% 17%);
+}
+
+/* Checkout page */
+.dark .checkout-container {
+  background-color: hsl(222 47% 11%);
+}
+
+.dark .payment-method-card {
+  background-color: hsl(217 33% 17%);
+  border: 1px solid hsl(217 33% 22%);
+}
+
+.dark .payment-method-card.selected {
+  border-color: hsl(142 56% 52%);
+}
+
+/* Common interactions */
+.dark .hover-card:hover {
+  background-color: hsl(217 33% 19%);
+}
+
+/* FAQ Section */
+.dark .accordion-title {
+  color: hsl(210 40% 98%);
+}
+
+.dark .accordion-content {
+  color: hsl(214 32% 91%);
+}
+
+.dark [data-state="open"] {
+  background-color: hsl(217 33% 15%);
+}
+
+/* Footer */
+.dark footer {
+  background-color: hsl(222 47% 11%);
+  border-top: 1px solid hsl(217 33% 17%);
+}

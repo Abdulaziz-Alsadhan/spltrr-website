@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Based on the Saudi Riyal Symbol Guidelines -->
+  <g transform="translate(2, 4)">
+    <!-- Main structure based on Arabic calligraphy for "RIYAL" -->
+    <!-- 'R' - horizontal line tilted to the left  -->
+    <path d="M0 4L18 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- 'I' - line with connected points -->
+    <path d="M6 6.5C5.4 7 4.5 7.5 3.5 7.5" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+    <circle cx="3.5" cy="7.5" r="0.75" fill="currentColor"/>
+    
+    <!-- 'A' - vertical straight line -->
+    <path d="M10 4L10 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- 'L' - vertical line with horizontal tilt -->
+    <path d="M16 4L16 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M14 12L18 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+/* Dark Mode Styles */
+:root {
+  --bg-light: #ffffff;
+  --text-light: #1f2937;
+  --bg-dark: #111827;
+  --text-dark: #f9fafb;
+  --primary: #7AC943;
+  --secondary: #3FA9F5;
+}
+
+/* Light mode styles by default */
+body {
+  background-color: var(--bg-light);
+  color: var(--text-light);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode specific overrides */
+.dark body {
+  background-color: var(--bg-dark) !important;
+  color: var(--text-dark) !important;
+}
+
+.dark .bg-white {
+  background-color: var(--bg-dark) !important;
+}
+
+.dark .bg-background {
+  background-color: var(--bg-dark) !important;
+}
+
+.dark .text-foreground {
+  color: var(--text-dark) !important;
+}
+
+.dark .border-border {
+  border-color: #2d3748 !important;
+}
+
+.dark .bg-muted {
+  background-color: #1f2937 !important;
+}
+
+.dark .card,
+.dark .bg-card {
+  background-color: #1e293b !important;
+}
+
+/* Ensure buttons maintain visibility */
+.dark .gradient-button::before {
+  opacity: 0.9;
+}
+
+/* Ensure skeleton styles adapt to dark mode */
+.dark .skeleton {
+  background: linear-gradient(90deg, #2d3748 25%, #1f2937 50%, #2d3748 75%);
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+}
+
+/* Footer styles for dark mode */
+.dark footer {
+  background-color: #111827 !important;
+  color: #f9fafb !important;
+  border-top-color: #2d3748 !important;
+}
